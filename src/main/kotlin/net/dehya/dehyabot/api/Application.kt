@@ -32,6 +32,8 @@ abstract class Application(
 
     override fun onGuildReady(guild: Guild) {}
 
+    override fun getAPI() = api
+
     /**
      * Register a listener.
      */
@@ -75,5 +77,7 @@ interface ModularApplication {
     fun onReady()
 
     fun onGuildReady(guild: Guild)
+
+    fun getAPI(): JDA?
 
 }
