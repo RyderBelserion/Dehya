@@ -28,7 +28,7 @@ dependencies {
 
     implementation("io.github.cdimascio:dotenv-kotlin:6.3.1")
 
-    implementation("ch.qos.logback:logback-classic:1.4.4")
+    implementation("ch.qos.logback:logback-classic:1.4.5")
 
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
 
