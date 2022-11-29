@@ -23,8 +23,7 @@ repositories {
 }
 
 dependencies {
-    // Discord JDA
-    implementation("net.dv8tion:JDA:5.0.0-alpha.22")
+    implementation("net.dv8tion:JDA:5.0.0-beta.1")
 
     implementation("io.github.cdimascio:dotenv-kotlin:6.3.1")
 
