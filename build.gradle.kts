@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.7.20"
+    kotlin("jvm") version "1.7.21"
 
     id("com.github.johnrengelman.shadow") version "7.1.2"
 
@@ -23,16 +23,13 @@ repositories {
 }
 
 dependencies {
-    // Discord JDA
-    implementation("net.dv8tion:JDA:5.0.0-alpha.22")
+    implementation("net.dv8tion:JDA:5.0.0-beta.1")
 
     implementation("io.github.cdimascio:dotenv-kotlin:6.3.1")
 
-    implementation("ch.qos.logback:logback-classic:1.4.4")
+    implementation("ch.qos.logback:logback-classic:1.4.5")
 
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
-
-    implementation(kotlin("stdlib", "1.7.20"))
+    implementation(kotlin("stdlib", "1.7.21"))
 }
 
 tasks {
