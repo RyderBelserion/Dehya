@@ -3,8 +3,6 @@ package net.dehya.dehyabot
 import net.dehya.dehyabot.api.Application
 import net.dehya.dehyabot.api.schedules.Scheduler
 import net.dehya.dehyabot.api.updatePresence
-import net.dehya.dehyabot.events.emojis.DuckPostEvent
-import net.dehya.dehyabot.events.emojis.PumpkinPostEvent
 import net.dv8tion.jda.api.entities.Guild
 import net.dv8tion.jda.api.requests.GatewayIntent
 import kotlin.time.Duration.Companion.minutes
@@ -34,10 +32,7 @@ class DehyaApp(token: String): Application(token, intents) {
     }
 
     override fun onReady() {
-        register(
-            DuckPostEvent(),
-            PumpkinPostEvent()
-        )
+
     }
 
     override fun onGuildReady(guild: Guild) {
