@@ -24,6 +24,7 @@ class Embed {
 
     /**
      * Set the footer using strings.
+     *
      * @param footer - The text to put in the footer.
      * @param icon - The icon whether it's a profile picture or something random.
      */
@@ -33,6 +34,7 @@ class Embed {
 
     /**
      * Set the footer using the user object.
+     *
      * @param user - The member in question.
      */
     fun setFooter(user: User, guild: Guild) {
@@ -50,6 +52,7 @@ class Embed {
 
     /**
      * Set the hex color to a color of our choice.
+     *
      * @param hex - The color to choose.
      */
     fun setColor(hex: String) {
@@ -58,6 +61,7 @@ class Embed {
 
     /**
      * Set a color using one of our pre-set colors.
+     *
      * @param color - A preset enum of colors.
      */
     fun setColor(color: EmbedColors) {
@@ -66,6 +70,7 @@ class Embed {
 
     /**
      * Set thumbnails using strings.
+     *
      * @param url - The image url to use.
      */
     fun setThumbnail(url: String) {
@@ -74,6 +79,7 @@ class Embed {
 
     /**
      * Set the thumbnail using the user object.
+     *
      * @param user - The member in question.
      * @param guild - Used to fetch the member's guild avatar otherwise fetches global avatar.
      */
@@ -85,6 +91,7 @@ class Embed {
 
     /**
      * Set the image using a string.
+     *
      * @param url - The image url to use.
      */
     fun setImage(url: String) {
@@ -93,6 +100,7 @@ class Embed {
 
     /**
      * Set the author using strings.
+     *
      * @param name - The name of the author.
      * @param image - An optional value to input an image url.
      */
@@ -102,6 +110,7 @@ class Embed {
 
     /**
      * Set the author using the user object.
+     *
      * @param user - The member in question.
      * @param guild - Used to fetch the member's guild avatar otherwise fetches global avatar.
      */
@@ -113,6 +122,7 @@ class Embed {
 
     /**
      * Set the description of the embed.
+     *
      * @param description - The description to use.
      */
     fun setDescription(description: String) {

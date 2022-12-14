@@ -41,7 +41,9 @@ object Scheduler : CoroutineScope {
         schedules.add(ScheduleTimer(0, time.inWholeSeconds, false, task))
     }
 
-    /** Start the timer logic. */
+    /**
+     * Start the timer logic.
+     */
     fun start(): Scheduler {
         launch {
             var lastCheck: LocalDateTime? = null
