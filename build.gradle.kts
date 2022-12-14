@@ -1,2 +1,2 @@
-project.version = "net.dehya.dehyabot"
-project.group = "${extra["bot_version"]}"
+project.group = "net.dehya.dehyabot"
+project.version = "${extra["bot_version"]}"
