@@ -1,7 +1,6 @@
 package net.dehya.dehyabot.api.schedules
 
 import kotlinx.coroutines.*
-import net.dehya.dehyabot.api.Application
 import net.dehya.dehyabot.api.schedules.types.DateSchedule
 import net.dehya.dehyabot.api.schedules.types.DaySchedule
 import java.time.Clock
