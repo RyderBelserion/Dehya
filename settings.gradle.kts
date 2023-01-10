@@ -5,9 +5,12 @@ dependencyResolutionManagement {
 pluginManagement {
     repositories {
         gradlePluginPortal()
+        mavenCentral()
+    }
+
+    plugins {
+        kotlin("jvm").version("1.8.0")
     }
 }
-
-rootProject.name = "Dehya"
 
 include("discord")
